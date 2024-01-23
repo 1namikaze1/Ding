@@ -14,8 +14,8 @@
 :root {
   
   --text-color: #050506;
-  --main-color:  rgb(92, 4, 19);
-  --white-color: #fdfdfd;
+  --main-color:  blue;
+  --white-color: black;
   --shadow-color: rgba(4, 1, 1, 0.911);
   --ds-color: skyblue;
   --my-color: rgb(7, 7, 7);
@@ -42,7 +42,7 @@ body {
   left: 0;
   width: 100%; 
   padding: 2rem 7%;
-  background: rgb(2, 2, 2);
+  background: pink;
   box-shadow:inset;
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@ body {
 .logo {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #fdfdfd;
+  color: black;
   cursor: default;
   margin-right: auto;
   
@@ -70,7 +70,7 @@ body {
   border: solid transparent;
   color: var(--white-color);
   font-weight: 600;
-  margin-right: 1.2rem;
+  margin-right: 1.5rem;
   transition: .5s ease;
 }
 .btnn{
@@ -83,7 +83,7 @@ body {
 .nabvar a:hover {
   border-top-color: var(--main-color);
   border-bottom-color: var(--main-color);
-  color: var(--main-color);
+  color: white;
 }
 
 .header.sticky .nabvar a{
@@ -103,6 +103,9 @@ body {
   font-size: 2.4rem;
   color: var(--white-color);
   cursor: pointer;
+}
+.bx-bx-menu{
+
 }
 .header.sticky #darkMode-icon {
   color: var(--text-color);
@@ -132,7 +135,9 @@ section {
 .home-content h1 {
   font-size: 5.6rem;
   font-weight: 700;
+  margin-top: .6rem;
   margin-bottom: .3rem;
+  font-size: 4rem;
 }
 
 .home-content p {
@@ -304,7 +309,6 @@ span {
 .services {
   min-height: auto;
   padding-bottom: 7rem;
-  margin-top: 100px;
 }
 
 .services h2 {
@@ -561,7 +565,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 7%;
-    background: rgb(6, 6, 6);
+    background: rgb(192, 179, 223);
   }
   .footer-iconTop:hover{
     color: var(--main-color);
@@ -605,29 +609,18 @@ span {
   @media (max-width: 1024px) {
     .header {
       padding: 2rem 3%;
-      font-size: medium;
-    }
-    section .about{
-      padding: 13rem 3% 2rem;
     }
     section{
-      padding: 11rem 3% 2rem;
+      padding: 10rem 3% 2rem;
     }
-    
   }
   @media (max-width:788px){
-    .home-content{
-      font-size: smaller;
-    }
-    .nabvar a{
-      font-size: small;
-    }
     .nabvar{
       position: absolute;
       top: 100%;
       left: 0;
       width: 100%;
       padding: 1rem 3%;
-      background: rgb(57, 57, 57);
+      background: rgb(116, 117, 118);
     }
   }
